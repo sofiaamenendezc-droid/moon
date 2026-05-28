@@ -1,0 +1,127 @@
+    @import url('https://googleapis.com');
+    
+    .nav-links a:hover {
+      background-color: rgba(255,255,255,0.1);
+      border-radius: 5px;
+    }
+    .nav-separator {
+      color: #fff;
+      margin: 0 10px;
+    }
+    .navbar-custom {
+      background-color: #9c2d2d;
+      padding: 0.5rem 1rem;
+      color: white;
+    }
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      padding: 0.3rem 0.5rem;
+    }
+    a.texto{
+        color: inherit;
+  text-decoration: none;
+    }
+
+    html{
+    scroll-behavior: smooth;
+      
+}
+.carta-producto{
+
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+.carta-producto .card-body {
+     display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-start;
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #e9b0c3;
+}
+.carta-producto .card-body p {
+    margin-bottom: auto; 
+    padding-bottom: 15px; 
+   
+}
+.carta-producto .card-body .btn {
+    align-self: center; 
+    width: fit-content; 
+    padding-left: 20px; 
+    padding-right: 20px;
+}
+  .texto {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-align: justify;
+   color: #e9b0c3;
+}
+  .btn {
+  background-color: #e9b0c3; /* Color verde para el fondo */
+  color: white;              /* Color blanco para la letra */
+  padding: 10px 20px;  
+  border: none;      /* Da espacio interno al botón */
+}
+
+
+  .titulo {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #D98FA8;
+  font-size: 70px;
+}
+
+  .titulo2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #D98FA8;
+  font-size: 30px;
+}
+
+
+td {
+  text-align: justify;
+}
+.nombre {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #D98FA8;
+  font-size: 20px;
+}
+
+.pie {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #D98FA8;
+  font-size: 50px;
+}
+.titulomv {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 70px;
+}
+.textomv {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-align: justify;
+   color: white;
+}
